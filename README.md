@@ -1,1 +1,3 @@
-# 1
+This code defines a function factorial that calculates the factorial of a given number n. It uses recursion to break down the factorial calculation into smaller subproblems. The base case is when n is equal to 0, in which case the function returns 1. Otherwise, it recursively calls itself with n-1 and multiplies the result by n.
+
+The if __name__ == "__main__": block is a common idiom in Python that allows the code inside it to be executed when the script is run directly, but not when it is imported as a module. In this example, it demonstrates how to use the factorial function by calculating the factorial of 5 and printing the result.
